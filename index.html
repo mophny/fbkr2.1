@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семестровая страница</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <header>Главная страница</header>
+        <button id="theme-toggle" class="theme-toggle">☀️ Светлая тема</button>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <article class="profile-header">
+                <h1 class="profile-title">Информация об авторе</h1>
+                <img class="profile-photo" src="images/tai.jpg" alt="Фото автора" width="200" height="250">
+                <h2 class="profile-name">Луняков Михаил Игоревич</h2>
+                <p class="profile-group">ЭФБО-04-24</p>
+            </article>
+
+            <section class="about-me">
+                <h2>Обо мне</h2>
+                <p>Родился в 2006, пошел в детский сад, потом в школу, сейчас здесь.</p>
+            </section>
+
+            <section class="skills-container">
+                <h2>Мои навыки</h2>
+                <div class="skills-grid">
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">C#</div>
+                    <div class="skill-tag">Golang</div>
+                </div>
+            </section>
+
+            <section class="experience-section">
+                <h2 class="section-title">Мой опыт работы</h2>
+                <div class="experience-grid">
+                    <article class="experience-card">
+                        <h3 class="experience-title">Стажировка в Сбер</h3>
+                        <p class="experience-desc">Охранник</p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">Стажировка в Яндекс</h3>
+                        <p class="experience-desc">Уборщик</p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">Стажировка в Астра</h3>
+                        <p class="experience-desc">Наблюдатель</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p> </p>
+        </footer>
+    </div>
+    <script src="/scripts/script.js"></script>
+</body>
